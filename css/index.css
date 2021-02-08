@@ -1,0 +1,228 @@
+/* 公共头部导航部分 */
+.header {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px #e2e2e2 solid;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 257px;
+    height: 58px;
+    width: 287px;
+}
+
+.logo h3 {
+    display: inline-block;
+    color: #23954d;
+    font-family: 宋体;
+    font-size: 15px;
+    font-weight: 1000;
+    line-height: 58px;
+}
+
+.logo span {
+    display: inline-block;
+    width: 45px;
+    height: 17px;
+    background-color: #23954d;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 653px;
+    height: 58px;
+    margin-left: 587px;
+    line-height: 58px;
+}
+
+.nav a {
+    color: #414141;
+    font-family: 宋体;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#nav-jxgl {
+    color: #3ba8f0;
+}
+
+.tubiao {
+    position: absolute;
+    top: 0;
+    left: 1288px;
+    width: 58px;
+    height: 58px;
+    background: url(images/xgn.png) no-repeat center;
+    color: #ffffff;
+    font-size: 9px;
+    line-height: 58px;
+}
+
+.tubiao p {
+    margin-left: 5px;
+}
+
+.sousuo1 {
+    position: absolute;
+    top: 0;
+    left: 1404px;
+    line-height: 58px;
+}
+
+.touxiang {
+    position: absolute;
+    top: 50%;
+    left: 1506px;
+    width: 33px;
+    height: 33px;
+    margin-top: -16.5px;
+    border-radius: 100%;
+    border: 1px #e8e8e8 solid;
+    text-align: center;
+}
+
+.id {
+    position: absolute;
+    top: 0;
+    left: 1554px;
+    line-height: 58px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* 公共侧边栏部分 */
+
+.aside {
+    position: absolute;
+    top: 0px;
+    left: 253px;
+    width: 243px;
+    height: 100%;
+    padding-top: 58px;
+}
+
+.grzx {
+    position: absolute;
+    top: 91px;
+    width: 243px;
+    height: 68px;
+}
+
+.fh {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 31px;
+    height: 31px;
+    border: 1px #989898 solid;
+    border-radius: 100%;
+    line-height: 29px;
+    text-align: center;
+}
+
+
+.grzx p {
+    position: absolute;
+    left: 45px;
+    color: #999999;
+    font-size: 17px;
+    line-height: 33px;
+}
+
+.grzxcd {
+    position: absolute;
+    left: 207px;
+    top: 0;
+    line-height: 31px;
+}
+
+.a-nav {
+    position: absolute;
+    top: 149px;
+    width: 243px;
+    height: 828px;
+    border-right: 1px #e0e0e0 solid;
+}
+
+.a-nav a {
+    display: block;
+    padding: 22px 0;
+    padding-left: 27px;
+    color: #333333;
+}
+
+.a-nav a:hover {
+    background-color: #f4f5f5;
+}
+
+.a-nav p {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.wdbj {
+    background-color:  #f4f5f5;
+    color: #3ba8f0 !important;
+}
+
+.wdbj::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 130px;
+    height: 64px;
+    width: 3px;
+    background-color: #3ba8f0;
+}
+
+/* 公共内容区顶栏部分 */
+
+.main {
+    position: absolute;
+    left: 527px;
+    top: 0;
+    width: 1138px;
+    height: 926px;
+    padding-top: 58px;
+}
+
+.dl-wdbj {
+    position: absolute;
+    width: 1138px;
+    height: 74px;
+    border-bottom: 1px #e6e7e7 solid;
+}
+
+.dl-wdbj p {
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dl-wdbj button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100px;
+    height: 35px;
+    margin-top: -17.5px;
+    background-color: #3ca8f0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    border: none;
+    border-radius: 3px;
+}

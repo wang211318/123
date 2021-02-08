@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cjbj.css">
+</head>
+<body>
+    <!-- 公共头部导航部分 -->
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+            <h3>福建省教育信息化统一平台</h3>
+            <span>网教通</span>
+        </div>
+        <div class="nav">
+            <a href="#">首页</a>
+            <a href="#" id="nav-jxgl">教学管理</a>
+            <a href="#">学习</a>
+            <a href="#">资源超市</a>
+            <a href="#">教育应用</a>
+            <a href="#">新闻</a>
+            <a href="#">名师名校</a>
+        </div>
+        <div class="tubiao">
+            <p>新功能</p>
+        </div>
+        <div class="sousuo1">
+            <a href="#"><img src="images/搜索1.png" alt=""></a>
+        </div>
+        <div class="touxiang">
+            <a href="#"><img src="images/头像.png" alt=""></a>
+        </div>
+        <div class="id">Coco</div>
+    </div>
+    <!-- 公共侧边栏部分 -->
+    <div class="aside">
+        <div class="grzx">
+            <a href="#">
+                <div class="fh">
+                    <img src="images/个人中心返回.png" alt="">
+                </div>
+            </a>
+            <p>个人中心</p>
+            <div class="grzxcd">
+                <a href="#">
+                    <img src="images/个人中心2.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="a-nav">
+            <a href="#">
+                <img src="images/其他内容.png" alt="">
+                <p>其他内容</p>
+            </a>
+            <a href="#">
+                <img src="images/其他内容2.png" alt="">
+                <p>其他内容</p>
+            </a>
+            <a href="#" class="wdbj">
+                <img src="images/我的班级.png" alt="">
+                <p>我的班级</p>
+            </a>
+            <a href="#">
+                <img src="images/其他内容3.png" alt="">
+                <p>其他内容</p>
+            </a>
+        </div>
+    </div>
+    <!-- 内容区部分 -->
+    <div class="main">
+        <!-- 公共内容区顶栏部分 -->
+        <div class="dl-wdbj">
+            <p>我的班级</p>
+            <a href="yhwdbj.html"><button>返回上一级</button></a>
+        </div>
+        <!-- 创建班级内容区部分 -->
+        <div class="cj-nr">
+            <p class="cj-p">尊敬的<span class="cj-p-span">老师（刘老师）</span>，请填写班级信息：</p>
+            
+            <form class="cj-form1">
+                <div><span>学校</span><input type="text" placeholder="&nbsp;&nbsp;请选择学校"></div>
+                <div>
+                    <p>*</p>
+                    <span>学段</span>
+                    <input id="sex" type="text" placeholder="&nbsp;&nbsp;请选择年段" list="sexlist">
+                </div>
+                <datalist id="sexlist">
+                    <option>&nbsp;&nbsp;小学</option>
+                    <option>&nbsp;&nbsp;初中</option>
+                    <option>&nbsp;&nbsp;高中</option>
+                    <option>&nbsp;&nbsp;大学</option>
+                </datalist>
+                <div>
+                    <p>*</p>
+                    <span>年级</span>
+                    <input id="type" type="text" placeholder="&nbsp;&nbsp;请选择年级" list="typelist">
+                </div>
+                <datalist id="typelist">
+                    <option>&nbsp;&nbsp;一年级</option>
+                    <option>&nbsp;&nbsp;二年级</option>
+                    <option>&nbsp;&nbsp;三年级</option>
+                </datalist>
+                <div>
+                    <p>*</p>
+                    <span>班级名</span>
+                    <input type="text"placeholder="&nbsp;&nbsp;请输入班级名称，限20个字符，不支持输入_和%">
+                </div>
+            </form>
+
+            <form class="cj-form2">
+                <div><span class="cj-span-bt">类型</span>
+                    <span class="cj-form2-span">
+                        <span style="margin-right: 35px;"><input type="radio" name="leixing" checked>行政班</span>
+                        <span><input type="radio" name="leixing">教学班</span>
+                    </span>
+                </div>
+                <div><span class="cj-span-bt">退出权限设置</span>
+                    <span class="cj-form2-span">
+                        <span><input type="radio" name="quanxian"checked>允许退出</span>
+                        <span><input type="radio" name="quanxian">通过班级管理员审核后退出</span>
+                        <input type="radio" name="quanxian">禁止退出
+                    </span>
+                </div>
+                <input class="cj-form2-bt" type="button" value="保存">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

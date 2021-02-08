@@ -1,0 +1,163 @@
+.ck-sousuo {
+    position: absolute;
+    top: 133px;
+    width: 1138px;
+    height: 96px;
+}
+
+.ck-sousuo h2 {
+    color: #333333;
+    line-height: 96px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ck-sousuo form {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -18px;
+    height: 35px;
+    width: 300px;
+}
+
+.ck-sousuo form input {
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    border: 1px #3ba8f0 solid;
+}
+
+.ck-sousuo form a span {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 35px;
+    background-color: #3ba8f0;
+}
+
+.ck-sousuo form a span img {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -10px;
+}
+
+.ck-nr-dl {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0;
+    top: 230px;
+    height: 35px;
+    width: 100%;
+    background-color:  #f5f5f5;
+    border: 1px #dddddd solid;
+    line-height: 33px;
+}
+
+.ck-nr-dl :first-child {
+    background-color: #fff;
+    color: #50aff1;
+    border-right: 1px #dddddd solid;
+}
+
+.ck-nr-dl a {
+    display: inline-block;
+    height: 33px;
+    width: 180px;
+    padding: 0 0px 0 40px;
+    color: #666666;
+}
+
+.ck-nr-dl a:hover {
+    background-color: #ffffff;
+    border-right: 1px #dddddd solid;
+}
+
+.ck-nr {
+    position: absolute;
+    left: 0;
+    top: 264.5px;
+    width: 100%;
+    height: 696px;
+    border: 1px #dddddd solid;
+    text-align: center;
+}
+
+.ck-teacher {
+    display: inline-block;
+    position: relative;
+    width: 136px;
+    height: 150px;
+    margin: 24px 8px;
+    border: 1px #dddddd solid;
+}
+
+.ck-teacher .span-link span {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    width: 60px;
+    height: 20px;
+    background-color: #f99d43;
+    color: #fefefe;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.ck-teacher p {
+    line-height: 35px;
+    font-weight: 600;
+}
+
+#ck-yy {
+    position: absolute;
+    right: 52px;
+}
+
+#ck-gly {
+    width: 47px;
+    background-color: #fa4b5b;
+}
+
+.span-link {
+    z-index: 1;
+}
+
+.span-hover {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#span-bzr {
+    background-color: #f96543;
+}
+
+.ck-teacher:hover .span-hover{
+    z-index: 99;
+}
+
+.ck-teacher:hover .span-link span {
+    display: none;
+}
+
+.ck-teacher:hover img {
+    opacity: 0;
+}
+
+.ck-teacher .span-hover span {
+    display: inline-block;
+    margin: 3px 3px;
+    padding: 2px 6px;
+    background-color: #f99d43;
+    color: #fefefe;
+    font-size: 12px;
+}
